@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+import Playground from './Playground';
+import Name from './components/Name';
+import Paint from './components/Paint';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Playground />
   </React.StrictMode>,
   document.getElementById('root')
 );
